@@ -113,7 +113,7 @@
                             <label for="image" class="col-md-4 col-form-label text-md-right">{{ 'عکس پرسنلی' }}</label>
 
                             <div class="col-md-6">
-                                <input id="image" type="file" class="form-control @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required>
+                                <input id="image" type="file" class="form-control @error('image') is-invalid @enderror" name="image" required>
 
                                 @error('image')
                                 <span class="invalid-feedback" role="alert">
@@ -127,7 +127,7 @@
                             <label for="natCardImage" class="col-md-4 col-form-label text-md-right">{{ 'عکس کارت ملی' }}</label>
 
                             <div class="col-md-6">
-                                <input id="natCardImage" type="file" class="form-control @error('natCardImage') is-invalid @enderror" name="natCardImage" value="{{ old('natCardImage') }}" required>
+                                <input id="natCardImage" type="file" class="form-control @error('natCardImage') is-invalid @enderror" name="natCardImage" required>
 
                                 @error('natCardImage')
                                 <span class="invalid-feedback" role="alert">
@@ -141,7 +141,7 @@
                             <label for="resumes" class="col-md-4 col-form-label text-md-right">{{ 'رزومه' }}</label>
 
                             <div class="col-md-6">
-                                <input id="resumes" type="file" class="form-control @error('resumes') is-invalid @enderror" name="resumes" value="{{ old('resumes') }}" required>
+                                <input id="resumes" type="file" class="form-control @error('resumes') is-invalid @enderror" name="resumes" required>
 
                                 @error('resumes')
                                 <span class="invalid-feedback" role="alert">

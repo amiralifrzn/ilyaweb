@@ -60,7 +60,7 @@ class RegisterController extends Controller
             'natCardImage' => ['required', 'file'],
             'resumes' => ['required', 'file', 'mimes:pdf'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'password' => ['required', 'string', 'min:8'],
         ]);
     }
 

@@ -17,7 +17,8 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('lastName');
-            $table->string('nationalCode');
+            $table->boolean('status')->default(1);
+            $table->string('nationalcode');
             $table->string('phoneNumber');
             $table->text('address');
             $table->string('postalCode');

@@ -1,10 +1,10 @@
 <!-- BEGIN: Main Menu-->
-<div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+<div class="main-menu menu-fixed menu-dark menu-accordion menu-shadow" data-scroll-to-active="true">
     <div class="navbar-header">
         <ul class="nav navbar-nav flex-row">
             <li class="nav-item mr-auto"><a class="navbar-brand" href="../../../html/rtl/vertical-menu-boxicons-template/index.html">
                     <div class="brand-logo"><img class="logo" src="../../../app-assets/images/logo/logo.png" /></div>
-                    <h2 class="brand-text mb-0">Frest</h2>
+                    <h2 class="brand-text mb-0">سایت ایده پردازان</h2>
                 </a></li>
             <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i class="bx bx-x d-block d-xl-none font-medium-4 primary toggle-icon"></i><i class="toggle-icon bx bx-disc font-medium-4 d-none d-xl-block collapse-toggle-icon primary" data-ticon="bx-disc"></i></a></li>
         </ul>
@@ -12,23 +12,18 @@
     <div class="shadow-bottom"></div>
     <div class="main-menu-content">
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation" data-icon-style="">
-            <li class=" nav-item"><a href="index.html"><i class="bx bx-home-alt"></i><span class="menu-title" data-i18n="Dashboard">Dashboard</span><span class="badge badge-light-danger badge-pill badge-round float-right mr-2">2</span></a>
-                <ul class="menu-content">
-                    <li><a href="dashboard-ecommerce.html"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="eCommerce">eCommerce</span></a>
-                    </li>
-                    <li class="active"><a href="dashboard-analytics.html"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Analytics">Analytics</span></a>
-                    </li>
-                </ul>
+            <li class=" nav-item"><a href="/"><i class="bx bx-home-alt"></i><span class="menu-title" data-i18n="Dashboard">خانه</span><span class="badge badge-light-danger badge-pill badge-round float-right mr-2">2</span></a>
+             
             </li>
-            <li class=" navigation-header"><span>Apps</span>
+            <li class=" navigation-header"><span>مدیریت</span>
             </li>
-            <li class=" nav-item"><a href="app-email.html"><i class="bx bx-envelope"></i><span class="menu-title" data-i18n="Email">Email</span></a>
+            <li class=" nav-item"><a href="/adminpanel/users"><i class="bx bx-envelope"></i><span class="menu-title" data-i18n="Email"> کاربران</span></a>
             </li>
-            <li class=" nav-item"><a href="app-chat.html"><i class="bx bx-chat"></i><span class="menu-title" data-i18n="Chat">Chat</span></a>
+            <li class=" nav-item"><a href="app-chat.html"><i class="bx bx-chat"></i><span class="menu-title" data-i18n="Chat">پنل ایده پرداز</span></a>
             </li>
-            <li class=" nav-item"><a href="app-todo.html"><i class="bx bx-check-circle"></i><span class="menu-title" data-i18n="Todo">Todo</span></a>
+            <li class=" nav-item"><a href="app-todo.html"><i class="bx bx-check-circle"></i><span class="menu-title" data-i18n="Todo"> پنل سرمایه گذار</span></a>
             </li>
-            <li class=" nav-item"><a href="app-calendar.html"><i class="bx bx-calendar"></i><span class="menu-title" data-i18n="Calendar">Calendar</span></a>
+            <!-- <li class=" nav-item"><a href="app-calendar.html"><i class="bx bx-calendar"></i><span class="menu-title" data-i18n="Calendar">Calendar</span></a>
             </li>
             <li class=" nav-item"><a href="app-kanban.html"><i class="bx bx-grid-alt"></i><span class="menu-title" data-i18n="Kanban">Kanban</span></a>
             </li>
@@ -61,8 +56,8 @@
                     <li><a href="content-helper-classes.html"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Helper Classes">Helper Classes</span></a>
                     </li>
                 </ul>
-            </li>
-            <li class=" nav-item"><a href="colors.html"><i class="bx bx-droplet"></i><span class="menu-title" data-i18n="Colors">Colors</span></a>
+            </li> -->
+            <!-- <li class=" nav-item"><a href="colors.html"><i class="bx bx-droplet"></i><span class="menu-title" data-i18n="Colors">Colors</span></a>
             </li>
             <li class=" nav-item"><a href="#"><i class="bx bx-bulb"></i><span class="menu-title" data-i18n="Icons">Icons</span></a>
                 <ul class="menu-content">
@@ -307,7 +302,7 @@
             <li class=" nav-item"><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/documentation" target="_blank"><i class="bx bx-folder"></i><span class="menu-title" data-i18n="Documentation">Documentation</span></a>
             </li>
             <li class=" nav-item"><a href="https://pixinvent.ticksy.com/" target="_blank"><i class="bx bx-purchase-tag-alt"></i><span class="menu-title" data-i18n="Raise Support">Raise Support</span></a>
-            </li>
+            </li> -->
         </ul>
     </div>
 </div>

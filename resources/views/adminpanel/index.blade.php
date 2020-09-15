@@ -7,7 +7,8 @@
 
     <div >
         <div >
-            <h1>This is Blog Post Title.</h1>
+            <h1>پنل ادمین</h1>
+            
         </div>
     </div>
 
